@@ -32,7 +32,7 @@ Without this, OTel Collector OOM-kills during traffic spikes, causing data loss.
 
 ---
 
-## Multi-Cluster Pattern (T-Mobile: 20+ clusters)
+## Multi-Cluster Pattern (Used in large-scale telecom production environments)
 
 Each GKE Cluster
 └── OTel Collector Agent (DaemonSet)
